@@ -22,6 +22,8 @@ public class Login{
 		Thread.sleep(1000);
 		
 		driver.get("https://wfms.kongsberg.master.int");
+		
+		driver.close();
 
     }   
 }
